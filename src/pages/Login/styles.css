@@ -1,0 +1,39 @@
+#login {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 1.6rem;
+
+  color: var(--text-color);
+  background-color: #fff;
+
+  text-align: center;
+}
+
+#login img {
+  margin-top: 80px;
+}
+
+#login h2 {
+  margin-bottom: 50px;
+}
+
+label {
+  font-weight: 400;
+}
+
+input {
+  width: 90%;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  padding: 1rem 0;
+  margin-top: .6rem;
+  margin-bottom: 2.4rem;
+}
+
+#login button {
+  width: 50vw;
+}
+
+#login p {
+  margin-top: 2.4rem;
+}

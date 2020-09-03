@@ -1,0 +1,18 @@
+#home {
+  text-align: center;
+  width: 70vw;
+}
+
+#home-title {
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+#home h2 {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+
+#home button {
+  margin: 100px 0 70px;
+}
