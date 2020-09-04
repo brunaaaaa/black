@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Menu from './pages/Menu';
-import Fatura from './pages/Fatura';
+import Fatura from './pages/Fatura/index.js';
 import Limite from './pages/Limite';
 import Sonho from './pages/Sonho';
 
