@@ -1,0 +1,74 @@
+#fatura {
+  display: block;
+  margin-top: 150px;
+  text-align: center;
+}
+
+#fatura img {
+  display: block;
+  margin: 1.2rem auto;
+}
+
+#transactions {
+  background-color: #fff;
+  color: var(--text-color);
+  width: 100vw;
+  height: fit-content;
+  border-radius: 50px 50px 0 0;
+  margin-top: 2.4rem;
+}
+
+#transactions h2 {
+  padding-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.iconify {
+  font-size: 20px;
+}
+
+.piggy {
+  color: #131313;
+}
+
+.sub {
+  color: #FF0000;
+}
+
+.row {
+  width: 80%;
+  height: 45px;
+  margin: 0 auto;
+  padding-bottom: .8rem;
+
+  display: flex;
+  align-items: flex-end;
+
+  border-bottom: 1px solid #ddd;
+
+  font-weight: 400;
+}
+
+.row .price {
+  margin-left: 1rem;
+}
+
+.row .info {
+  text-align: right;
+  position: absolute;
+  right: 10%;
+}
+
+.row .info small {
+  color: #9E9E9E;
+  font-size: 1rem;
+}
+
+.month-divider {
+  background-color: #F2F2F2;
+  border-top: 1px solid #DDDDDD;
+}
+
+.month-divider small {
+  color: #9E9E9E;
+}
