@@ -1,0 +1,54 @@
+#limite {
+  display: block;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#limite img {
+  display: block;
+  margin: 1.2rem auto;
+}
+
+#limite-info {
+  background-color: #fff;
+  color: var(--text-color);
+  width: 100vw;
+  height: fit-content;
+  border-radius: 50px 50px 0 0;
+  margin-top: 2.4rem;
+  padding-top: 3.2rem;
+}
+
+#limite-info h2 {
+  margin-bottom: 2.4rem;
+}
+
+#limite-info h2:last-of-type {
+  width: 80%;
+  margin: 0 auto 2.4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+#limite-info h3 {
+  width: 70%;
+  margin: 0 auto 2.8rem;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+#limite-info ul {
+  text-align: left;
+}
+
+#limite-info li {
+  width: 70%;
+  height: 45px;
+  margin: 0 auto;
+  padding-bottom: .8rem;
+
+  display: flex;
+  align-items: flex-end;
+
+  font-weight: 400;
+}

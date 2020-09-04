@@ -1,0 +1,85 @@
+#sonho {
+  display: block;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#sonho img {
+  display: block;
+  margin: 1.2rem auto;
+}
+
+#sonho-info {
+  background-color: #fff;
+  color: var(--text-color);
+  width: 100vw;
+  height: fit-content;
+  border-radius: 50px 50px 0 0;
+  margin-top: 2.4rem;
+  padding-top: 3.2rem;
+}
+
+#sonho-info .grid {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid h3:last-of-type {
+  font-weight: 500;
+}
+
+#sonho-info h4:first-of-type {
+  width: 80%;
+  margin: 2.4rem auto;
+  padding-bottom: 1.6rem;
+
+  border-bottom: 1px solid #DDDDDD;
+
+  color: #9E9E9E;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.destaque {
+  color: var(--button-color);
+  font-weight: 600;
+}
+
+.each-dream {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+  
+  margin: 2.4rem auto;
+  padding-bottom: 1.6rem;
+
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.each-dream img {
+  width: min-content;
+}
+
+.each-dream p {
+  text-align: left;
+  font-weight: 400;
+}
+
+.add-dream {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2.4rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add {
+  font-size: 40px;
+  color: var(--button-color);
+}
