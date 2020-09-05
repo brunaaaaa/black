@@ -1,0 +1,67 @@
+#cadastrar-sonho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#topo {
+  position: absolute;
+  top: 5vh;
+}
+
+#topo img {
+  display: block;
+  margin: 1.2rem auto;
+}
+
+#cadastro {
+  background-color: #fff;
+  color: var(--text-color);
+
+  width: 100vw;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50px 50px 0 0;
+}
+
+#cadastro h2 {
+  width: 60%;
+  margin: 0 auto 1rem;
+}
+
+#form-cadastro-sonho label {
+  position: relative;
+  bottom: -1rem;
+  left: 3.2rem;
+  padding: 0 6px;
+  
+  background-color: #fff;
+  color: var(--button-color);
+}
+
+#form-cadastro-sonho input,
+#form-cadastro-sonho textarea {
+  width: 80vw;
+  padding: 1.6rem;
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 5px;
+  border: 1px solid var(--button-color);
+}
+
+#form-cadastro-sonho input:last-of-type {
+  margin: 1.3rem auto;
+}
+
+label#uploadimg {
+  background-color: #000;
+  position: relative;
+}
+
+#cadastro button {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}

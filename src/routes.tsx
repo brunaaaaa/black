@@ -7,6 +7,8 @@ import Menu from './pages/Menu';
 import Fatura from './pages/Fatura/index.js';
 import Limite from './pages/Limite';
 import Sonho from './pages/Sonho';
+import CadastrarSonho from './pages/CadastrarSonho';
+import Pagamentos from './pages/Pagamentos';
 
 function Routes() {
   return (
@@ -17,6 +19,8 @@ function Routes() {
       <Route path="/fatura" component={Fatura} />
       <Route path="/limite" component={Limite} />
       <Route path="/sonho" component={Sonho} />
+      <Route path="/cadastrarsonho" component={CadastrarSonho} />
+      <Route path="/pagamentos" component={Pagamentos} />
     </BrowserRouter>
   );
 }

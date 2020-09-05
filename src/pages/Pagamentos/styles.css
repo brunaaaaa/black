@@ -1,0 +1,34 @@
+#pagamentos {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#pagamentos img {
+  display: block;
+  margin: 1.2rem auto;
+}
+
+#pagar-boleto {
+  background-color: #fff;
+  color: var(--text-color);
+  width: 100vw;
+  height: fit-content;
+  border-radius: 50px 50px 0 0;
+  margin-top: 4rem;
+  padding: 3.2rem;
+}
+
+#pagar-boleto h2 {
+  width: 65%;
+  margin: 1.6rem auto;
+}
+
+#pagar-boleto input {
+  border: 1px solid var(--button-color);
+}
+
+#pagar-boleto button {
+  margin-top: 2.4rem;
+  width: 70%;
+}

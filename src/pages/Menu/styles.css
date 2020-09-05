@@ -1,12 +1,40 @@
 #menu {
   width: 100vw;
   height: 100vh;
-  padding: 1rem 1.6rem;
+}
 
+#avatar {
+  position: absolute;
+  top: 67px;
+  right: 45px;
+}
+
+#saldo-info {
+  margin-left: 45px;
+  margin-top: 20vh;
+}
+
+#saldo-info h2 {
+  font-size: 2.4rem;
+}
+
+#saldo-info h2:last-of-type {
+  font-weight: 400;
+}
+
+#menu-options {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+
+  width: 100vw;
+  height: 67vh;
+  border-radius: 50px 50px 0 0;
+  padding: 2.4rem;
 
   color: var(--text-color);
   background-color: #fff;
@@ -15,18 +43,25 @@
 }
 
 .menu-card {
-  width: 80vw;
-  height: fit-content;
+  width: 150px;
+  height: 150px;
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  border: 1px solid rgba(0, 101, 131, .5);
-  border-radius: 50px;
-  box-shadow: 3px 3px rgba(0, 101, 131, .5);
+  border: 1px solid var(--button-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px var(--button-color);
+}
+
+.menu-card p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 90%;
+  margin-top: 1.6rem;
 }
 
 .menu-link {
@@ -34,14 +69,12 @@
 }
 
 .menu-card img {
-  width: 20vw;
+  width: 80%;
+  max-height: 60%;
+  opacity: .8;
 }
 
 .menu-card img,
 .menu-card h2 {
   margin-bottom: 1rem;
-}
-
-.menu-card p {
-  width: 80%;
 }

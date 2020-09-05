@@ -4,6 +4,7 @@ import './styles.css'
 
 import sonhoImg from '../../assets/imgs/sonho.svg';
 import moto from '../../assets/imgs/sonho-moto.png';
+import { Link } from 'react-router-dom';
 
 function Sonho() {
   return (
@@ -36,7 +37,7 @@ function Sonho() {
 
         <div className="add-dream">
           <span className="iconify add" data-icon="ant-design:plus-circle-outlined" data-inline="false"></span>
-          <span>Cadastrar novo Sonho / Objetivo</span>
+          <Link to="/cadastrarsonho">Cadastrar novo Sonho / Objetivo</Link>
         </div>
       </div>
     </div>
