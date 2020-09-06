@@ -25,9 +25,11 @@
   border-radius: 50px 50px 0 0;
 }
 
-#cadastro h2 {
+#cadastro h3 {
   width: 60%;
   margin: 0 auto 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 #form-cadastro-sonho label {
@@ -35,13 +37,28 @@
   bottom: -1rem;
   left: 3.2rem;
   padding: 0 6px;
-  
+
   background-color: #fff;
   color: var(--button-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 #form-cadastro-sonho input,
 #form-cadastro-sonho textarea {
+  width: 80vw;
+  padding: 1.6rem;
+  display: block;
+  margin: 0 auto;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+  border-radius: 5px;
+  border: 1px solid var(--button-color);
+}
+
+#descricao {
   width: 80vw;
   padding: 1.6rem;
   display: block;
@@ -64,4 +81,5 @@ label#uploadimg {
   width: 70%;
   display: block;
   margin: 0 auto;
+  margin-top: 2rem;
 }

@@ -27,18 +27,20 @@
 }
 
 .grid h3:last-of-type {
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 #sonho-info h4:first-of-type {
   width: 80%;
   margin: 2.4rem auto;
   padding-bottom: 1.6rem;
-
-  border-bottom: 1px solid #DDDDDD;
-
-  color: #9E9E9E;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
+
+  border-bottom: 1px solid #dddddd;
+
+  color: #9e9e9e;
   font-size: 1.8rem;
 }
 
@@ -53,11 +55,11 @@
   justify-content: space-between;
 
   width: 90%;
-  
+
   margin: 2.4rem auto;
   padding-bottom: 1.6rem;
 
-  border-bottom: 1px solid #DDDDDD;
+  border-bottom: 1px solid #dddddd;
 }
 
 .each-dream img {
@@ -66,14 +68,15 @@
 
 .each-dream p {
   text-align: left;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
 .add-dream {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   padding-bottom: 2.4rem;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-around;

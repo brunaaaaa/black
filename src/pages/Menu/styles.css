@@ -4,22 +4,30 @@
 }
 
 #avatar {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: relative;
   position: absolute;
   top: 67px;
   right: 45px;
 }
 
+#avatar img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 #saldo-info {
   margin-left: 45px;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
-#saldo-info h2 {
-  font-size: 2.4rem;
-}
-
-#saldo-info h2:last-of-type {
-  font-weight: 400;
+#saldo-info .value {
+  margin-top: 0.5rem;
 }
 
 #menu-options {
@@ -59,9 +67,10 @@
 
 .menu-card p {
   font-size: 14px;
-  font-weight: 400;
   width: 90%;
   margin-top: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .menu-link {
@@ -71,10 +80,16 @@
 .menu-card img {
   width: 80%;
   max-height: 60%;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .menu-card img,
 .menu-card h2 {
   margin-bottom: 1rem;
+}
+
+.label-text {
+  margin-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
