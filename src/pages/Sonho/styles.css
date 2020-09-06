@@ -1,6 +1,6 @@
 #sonho {
   display: block;
-  margin-top: 80px;
+  margin-top: 180px;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
   height: fit-content;
   border-radius: 50px 50px 0 0;
   margin-top: 2.4rem;
-  padding: 3.2rem 2rem 4rem;
+  padding: 3.2rem 2rem 0;
 }
 
 #sonho-info .grid {
