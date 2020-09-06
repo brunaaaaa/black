@@ -28,13 +28,11 @@
   border: 1px solid var(--button-color);
   padding: 1rem;
   outline: none;
-  text-align: center;
 }
 
 #pagar-boleto button {
   margin-top: 2.4rem;
   width: 70%;
-  outline: none;
 }
 
 #historico {

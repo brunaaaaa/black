@@ -1,3 +1,8 @@
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
 #fatura {
   display: block;
   margin-top: 150px;
@@ -18,9 +23,11 @@
   margin-top: 2.4rem;
 }
 
-#transactions h2 {
+#transactions h3 {
   padding-top: 2.4rem;
   margin-bottom: 2.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .iconify {
@@ -55,6 +62,8 @@
 
 .row .price {
   margin-left: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .row .info {
@@ -66,6 +75,8 @@
 .row .info small {
   color: #9e9e9e;
   font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .month-divider {
