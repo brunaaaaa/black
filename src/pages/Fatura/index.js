@@ -40,8 +40,10 @@ function Fatura() {
 
   return (
     <div id="fatura">
-      <img src={faturaImg} alt="Extrato" />
-      <h2>Extrato</h2>
+      <div id="fatura-info">
+        <img src={faturaImg} alt="Extrato" />
+        <h2>Extrato</h2>
+      </div>
       <div id="transactions">
         <h3>Últimas transações</h3>
 
