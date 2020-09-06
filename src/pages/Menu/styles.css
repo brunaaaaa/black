@@ -3,27 +3,17 @@
   height: 100vh;
 }
 
-#avatar {
-  background-color: #aaa;
+#avatar img {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  overflow: hidden;
-  position: relative;
   position: absolute;
-  top: 67px;
-  right: 45px;
-}
-
-#avatar img {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  top: 50px;
+  right: 30px;
 }
 
 #saldo-info {
-  margin-left: 45px;
-  margin-top: 10vh;
+  margin: 50px 0 0 30px;
 }
 
 #saldo-info .value {
@@ -40,7 +30,7 @@
   bottom: 0;
 
   width: 100vw;
-  height: 67vh;
+  height: fit-content;
   border-radius: 50px 50px 0 0;
   padding: 2.4rem;
 
@@ -51,9 +41,10 @@
 }
 
 .menu-card {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   padding: 2rem 1rem;
+  margin: 1.6rem auto;
 
   display: flex;
   flex-direction: column;
