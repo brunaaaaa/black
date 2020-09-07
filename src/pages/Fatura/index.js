@@ -47,7 +47,7 @@ function Fatura() {
       <div id="transactions">
         <h3>Últimas transações</h3>
 
-        {extrato.map((item, index) => (
+        {extrato.reverse().map((item, index) => (
           <div key={index}>
             <div className="row">
               <span
