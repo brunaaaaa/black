@@ -8,7 +8,7 @@
   width: 120px;
   height: 120px;
   position: absolute;
-  top: 50px;
+  top: 80px;
   right: 30px;
 }
 
@@ -16,8 +16,14 @@
   margin: 50px 0 0 30px;
 }
 
+#saldo-info h2:first-of-type,
+#saldo-info h3.label-text {
+  font-weight: 300;
+}
+
 #saldo-info .value {
   margin-top: 0.5rem;
+  font-size: 2.2rem;
 }
 
 #menu-options {
@@ -54,6 +60,10 @@
   border: 1px solid var(--button-color);
   border-radius: 10px;
   box-shadow: 2px 2px var(--button-color);
+}
+
+.menu-card:active {
+  background-color: #66a1b3;
 }
 
 .menu-card p {

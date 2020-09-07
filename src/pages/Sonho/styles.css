@@ -1,6 +1,9 @@
 #sonho {
   display: block;
   margin-top: 180px;
+}
+
+#sonho h2 {
   text-align: center;
 }
 
@@ -10,6 +13,7 @@
 }
 
 #sonho-info {
+  text-align: center;
   background-color: #fff;
   color: var(--text-color);
   width: 100vw;

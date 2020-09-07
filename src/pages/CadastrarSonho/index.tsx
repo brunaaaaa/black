@@ -80,7 +80,7 @@ function CadastrarSonho() {
           <input
             name="descricao"
             id="descricao"
-            placeholder="Ex.: Curso de iluminação e composição"
+            placeholder="Ex.: Curso de iluminação"
             value={descricao}
             onChange={handleChangeDesc}
           ></input>

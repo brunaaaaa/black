@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+#cadastrar-sonho h2 {
+  text-align: center;
+}
+
 #topo {
   position: absolute;
   top: 5vh;
@@ -66,15 +70,6 @@
 
   border-radius: 5px;
   border: 1px solid var(--button-color);
-}
-
-#form-cadastro-sonho input:last-of-type {
-  margin: 1.3rem auto;
-}
-
-label#uploadimg {
-  background-color: #000;
-  position: relative;
 }
 
 #cadastro button {

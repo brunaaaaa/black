@@ -24,6 +24,9 @@ function Limite() {
 
   return (
     <div id="limite">
+      <a href="/menu">
+        <span className="iconify go-back" data-icon="ic:round-arrow-back" data-inline="false" />
+      </a>
       <img src={limiteImg} alt="Limite" />
       <h2>Limite</h2>
 

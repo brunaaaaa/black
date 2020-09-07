@@ -41,6 +41,9 @@ function Fatura() {
   return (
     <div id="fatura">
       <div id="fatura-info">
+      <a href="/menu">
+        <span className="iconify go-back" data-icon="ic:round-arrow-back" data-inline="false" />
+      </a>
         <img src={faturaImg} alt="Extrato" />
         <h2>Extrato</h2>
       </div>

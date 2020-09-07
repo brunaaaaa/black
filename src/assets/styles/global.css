@@ -63,3 +63,7 @@ button {
     font-size: 62.5%;
   }
 }
+
+.go-back {
+  margin: .5rem;
+}

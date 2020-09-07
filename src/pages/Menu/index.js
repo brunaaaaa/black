@@ -59,6 +59,10 @@ function Menu() {
 
   return (
     <div id="menu">
+     <Link to="/">
+        <span className="iconify go-back" data-icon="ic:round-arrow-back" data-inline="false" />
+     </Link>
+
       <div id="avatar">
         <img src={avatarImg} alt="Avatar do usuário" />
       </div>

@@ -60,6 +60,10 @@ function Sonho() {
 
   return (
     <div id="sonho">
+      <a href="/menu">
+        <span className="iconify go-back" data-icon="ic:round-arrow-back" data-inline="false" />
+     </a>
+
       <img src={sonhoImg} alt="Cofrinho dos sonhos" />
       <h2>Cofrinho dos sonhos</h2>
 
